@@ -13,7 +13,7 @@ resource "kubernetes_cron_job_v1" "demo" {
             }
             container {
               name    = "node"
-              image   = "node:14"
+              image   = "node:18"
             }
           }
         }
