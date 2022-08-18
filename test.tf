@@ -9,7 +9,7 @@ resource "kubernetes_cron_job_v1" "demo" {
           spec {
             container {
               name    = "kaniko"
-              image   = "gcr.io/kaniko-project/executor:v1.7.0@sha256:8504bde9a9a8c9c4e9a4fe659703d265697a36ff13607b7669a4caa4407baa52"
+              image   = "gcr.io/kaniko-project/executor:v1.9.0@sha256:1f982af0b54be748221d9a35dcfa608660ab3d51229aa56bde5416f75aff7561"
             }
             container {
               name    = "node"
